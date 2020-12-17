@@ -1,0 +1,64 @@
+{
+  "name": "vue-gantt-schedule-timeline-calendar",
+  "version": "1.0.33",
+  "license": "AGPL-3.0",
+  "private": false,
+  "main": "src/components/GSTC.vue",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.4.4",
+    "gantt-schedule-timeline-calendar": "^2.6.8",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-unused-vars": 1,
+      "no-console": 1
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "description": "Vue version of gantt-schedule-timeline-calendar [ vue gantt, vue schedule, vue timeline, vue calendar, vue schedule timeline, vue gantt schedule ]",
+  "keywords": [
+    "vue gantt",
+    "gantt",
+    "vue schedule",
+    "vue scheduler",
+    "schedule",
+    "scheduler",
+    "vue timeline",
+    "timeline",
+    "vue calendar",
+    "calendar",
+    "vue project manager",
+    "project manager",
+    "vue tasks",
+    "tasks"
+  ]
+}
